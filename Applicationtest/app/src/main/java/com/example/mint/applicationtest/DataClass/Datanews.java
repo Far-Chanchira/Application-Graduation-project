@@ -1,0 +1,34 @@
+package com.example.mint.applicationtest.DataClass;
+
+/**
+ * Created by Mint on 8/9/2017.
+ */
+
+public class Datanews {
+    private String mText1;
+    private String mText2;
+
+
+    public Datanews( String text1, String text2) {
+        this.mText1 = text1;
+        this.mText2 = text2;
+
+    }
+
+    public String getmText1() {
+        return mText1;
+    }
+
+    public void setmText1(String mText1) {
+        this.mText1 = mText1;
+    }
+
+    public String getmText2() {
+        return mText2;
+    }
+
+    public void setmText2(String mText2m) {
+        this.mText2 = mText2;
+    }
+
+}

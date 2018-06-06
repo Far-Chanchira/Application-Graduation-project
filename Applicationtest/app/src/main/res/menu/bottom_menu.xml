@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_rice_new"
+        android:icon="@drawable/news"
+        android:title="ข่าวสาร"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_rice_light"
+        android:icon="@drawable/r1"
+        android:title="ข้าวเบา"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/menu_rice_middle"
+        android:icon="@drawable/r2"
+        android:title="ข้าวกลาง"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/menu_rice_heavy"
+        android:icon="@drawable/r3"
+        android:title="ข้าวหนัก"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
